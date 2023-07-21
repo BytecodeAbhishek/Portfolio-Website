@@ -282,7 +282,7 @@ section {
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    text-align: center;
+    text-align: center; 
 }
   
 .section-container {
@@ -294,7 +294,20 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
-} 
+}
+.skills-details-container {
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.article-container {
+    display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
   /* PROJECTS SECTION */
   
 #projects {

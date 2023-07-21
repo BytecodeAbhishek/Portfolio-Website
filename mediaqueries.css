@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     #profile {
       height: 83vh;
       margin-bottom: 6rem;
@@ -15,8 +15,8 @@
     #hamburger-nav {
       display: flex;
     }
-    #experience,
-    .experience-details-container {
+    #skills,
+    .skills-details-container {
       margin-top: 2rem;
     }
     #profile,
@@ -71,9 +71,6 @@
     .contact-info-container p,
     .nav-links li a {
       font-size: 1rem;
-    }
-    .experience-sub-title {
-      font-size: 1.25rem;
     }
     .logo {
       font-size: 1.5rem;
